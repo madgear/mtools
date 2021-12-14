@@ -1,0 +1,90 @@
+[def]
+no=20
+vir1=Win32.Brontok.A,8A681778742BC851F8A1,FSIZE,1280
+vir2=Win32.Brontok.B,008338610874004904FF,FSIZE,1280
+vir3=SV.Host.1,D42D1D5ED0AB1FFC7D96,FSIZE,1280
+vir4=Win32.Spocls.1,F6706458AE73FF45A5EF,75269,7264
+vir5=Win32.Logo.1,39673037300000000040,76610,312
+vir6=dKernel,58F9D234AD79AF778E06,FSIZE,1280
+vir7=VB.IExplorer,E97945C1D5664FC17028,FSIZE,9792
+vir8=Win32.Brontok.C,699A662F4B6783924DB3,FSIZE,1280
+vir9=VB.Temp.1,100DD5A2414144104358,FSIZE,1280
+vir10=Win32.Host.1,6A0068386040006A008B,FSIZE,5360
+vir11=Win32.Copy.1,C8405974EC7907AC3C00,FSIZE,480
+vir12=VB.Worm.07,146E4DB36C4E91646F7B,FSIZE,1072
+vir13=Net Services,B3F03AC3751A8B0D1E16,FSIZE,1280
+vir14=Win32.Brontok.D,800A8FDCC2089BCE06E0,FSIZE,1280
+vir15=ExiPlorer,44595073FCB151738D69,FSIZE,4096
+vir16=Win32.HiDrag.A,496A6565666F21457362,36352,1552
+vir17=vbs.noob.exp,46002E00200045002E00,FSIZE,66
+vir18=vbs.noob.exp,53006C006F0077002000,FSIZE,26
+vir19=SSC Virus,FF374420BEB8E11C508B,FSIZE,1280
+vir20=SVC Sys.vir32,FF68903F410064A10000,FSIZE,4132
+[regfix]
+no=30
+entry1=Software\Microsoft\Windows\CurrentVersion\Run,Tok-Cirrhatus,HKCU,0
+entry2=Software\Microsoft\Windows\CurrentVersion\Run,Bron-Spizaetus,HKLM,0
+entry3=SYSTEM\CurrentContolSet\Control\SafeBoot,AlternateShell,HKLM,0
+entry4=SYSTEM\ContolSet001\Control\SafeBoot,AlternateShell,HKLM,0
+entry5=SYSTEM\ContolSet002\Control\SafeBoot,AlternateShell,HKLM,0
+entry6=SYSTEM\ContolSet002\Control\SafeBoot,AlternateShell,HKLM,0
+entry7=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,msconfig,HKLM,0
+entry8=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,Pirus Males,HKLM,0
+entry9=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,Buat Anda,HKLM,0
+entry10=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,Explorer5,HKLM,0
+entry11=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,Explorer,HKLM,0
+entry12=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,load,HKLM,0
+entry13=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,FS6519,HKLM,0
+entry14=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,dKernel,HKLM,0
+entry15=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,lExplorer,HKLM,0
+entry16=Software\Microsoft\Windows\CurrentVersion\Run,svcshare,HKCU,0
+entry17=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,MS32DLL,HKLM,0
+entry18=Software\Microsoft\Internet Explorer\Main,Window Title,HKCU,0
+entry19=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,SVCHOST,HKLM,0
+entry20=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,Task Manager,HKLM,0
+entry21=SOFTWARE\Microsoft\Windows\CurrentVersion\Run,WindowNT,HKLM,0
+entry22=SYSTEM\ControlSet002\Services,PowerManager,HKLM,0
+entry23=SYSTEM\ControlSet003\Services,PowerManager,HKLM,0
+entry24=SYSTEM\CurrentControlSet\Services,PowerManager,HKLM,0
+entry25=SOFTWARE\Classes\batfile\shell\open\command,,HKLM,1,STRING,"%1" %*
+entry26=SOFTWARE\Classes\comfile\shell\open\command,,HKLM,1,STRING,"%1" %*
+entry27=SOFTWARE\Classes\exefile\shell\open\command,,HKLM,1,STRING,"%1" %*
+entry28=SOFTWARE\Classes\piffile\shell\open\command,,HKLM,1,STRING,"%1" %*
+entry29=SOFTWARE\Classes\scrfile\shell\open\command,,HKLM,1,STRING,"%1" %*
+entry30=SOFTWARE\Classes\regfile\shell\open\command,,HKLM,1,STRING,regedit.exe "%1"
+
+
+[delfiles]
+no=5
+del1=FS6519.dll.vbs,WINDIR
+del2=autorun.inf,DRIVE
+del3=autorun.inf,STARTUP
+del4=tasks\at1.job,WINDIR
+del5=MS32DLL.dll.vbs,WINDIR
+[memfiles]
+no=20
+file1=\winlogon.exe,APPDATA
+file2=\csrss.exe,APPDATA
+file3=\inetinfo.exe,APPDATA
+file4=\lsass.exe,APPDATA
+file5=\services.exe,APPDATA
+file6=\smss.exe,APPDATA
+file7=\svchost.exe,APPDATA
+file7=\ShellNew\bronstab.exe,WINDIR
+file8=\eksplorasi.exe,WINDIR
+file9=\Tasks\at1.job,WINDIR
+file10=\FS6519.dll.vbs,WINDIR
+file11=\lExplorer.exe,WINDIR
+file12=\KesenjanganSosial.exe,WINDIR
+file13=\ShellNew\sempalong.exe,WINDIR
+file14=\WowTumpeh.com,TEMP
+file15=\Brengkolang.com,TEMP
+file16=\startupfolder.com,STARTUP
+file17=\empty.pif,STARTUP
+file18=\drivers\spoclsv.exe,SYSDIR
+file19=\I75-D2\dkernel.exe,SYSDIR
+file20=\wscript.exe,SYSDIR
+[Options]
+Color=12
+update=
+***ENDDEF***
